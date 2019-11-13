@@ -3,9 +3,13 @@ This is a base project to create multiple automation scenarios in mobile apps ap
 
 # Scenarios
 
-###Scenario 1 **find_a_video_on_youtube.feature**
+### Scenario 1 **find_a_video_on_youtube.feature**
 
- In this example we applied the automation devco library using a new implementation for Mobile automation. You can create one automation to run in Android and iOS, just need to implement a new object **"Locator"**, this object contains the information that the Targets require.
+In this example we applied the automation devco library using a new implementation for Mobile automation. You can create one automation to run in Android and iOS, just need to implement a new object **"Locator"**, this object contains the information that the Targets require.
+
+### Scenario 2 **subscribe_channel.feature**
+
+ In this example we applied the Scroll Interaction from Devco library. It just use the  **Scroll.untilVisibleTarget** and needs the Target that you want to interact.
 
 ## Devco Library
 If you  want to use our implementation you can import the library from maven repository.
