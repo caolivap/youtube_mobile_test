@@ -27,7 +27,7 @@ public class FindTwitterUserStepDefinition {
 
     @Then("^He should see that the first result belongs to (.*) account$")
     public void heShouldSeeThatTheFirstResultBelongsToUserAccount(String userAccount) {
-
+        
     }
 
 
