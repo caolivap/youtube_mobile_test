@@ -21,7 +21,7 @@ public class FindTwitterUserStepDefinition {
     @When("^He searchs (.*)$")
     public void heSearchsUserName(String userName) {
         theActorInTheSpotlight().attemptsTo(
-                Search.twitterUserName(userName);
+                Search.twitterUserName(userName)
         );
     }
 
